@@ -1,0 +1,27 @@
+{"christmasSpecials": [
+    { "label": "Crispy bacon strips -20%", "code": "BACON2001" },
+    { "label": "Free delivery with extra pork belly", "code": "BACON2002" },
+    { "label": "Smoked ham chunks half price", "code": "BACON2003" },
+    { "label": "Thick-cut pancetta -30%", "code": "BACON2004" },
+    { "label": "Maple-glazed ribs 399€", "code": "BACON2005" },
+    { "label": "Honey-smoked brisket 129€", "code": "BACON2006" },
+    { "label": "Pepper-crusted bacon slabs -40%", "code": "BACON2007" },
+    { "label": "Cured pork loin 49€", "code": "BACON2008" },
+    { "label": "Slow-roasted pork shoulder -22%", "code": "BACON2009" },
+    { "label": "Charred pork belly bites 249€", "code": "BACON2010" },
+    { "label": "Sizzling bacon ends -35%", "code": "BACON2011" },
+    { "label": "Pork belly burnt ends -25%", "code": "BACON2012" },
+    { "label": "Tenderloin medallions -15%", "code": "BACON2013" },
+    { "label": "Crispy crackling bundles -20%", "code": "BACON2014" },
+    { "label": "Prosciutto slices -12%", "code": "BACON2015" },
+    { "label": "Smoked sausage links -30%", "code": "BACON2016" },
+    { "label": "Ham hock portions -10%", "code": "BACON2017" },
+    { "label": "Glazed pork ribs -18%", "code": "BACON2018" },
+    { "label": "Pork belly cubes 9€", "code": "BACON2019" },
+    { "label": "Crispy lardons -25%", "code": "BACON2020" },
+    { "label": "Maple bacon nuggets -28%", "code": "BACON2021" },
+    { "label": "Cured ham slices -15%", "code": "BACON2022" },
+    { "label": "Smoked pork chops -20%", "code": "BACON2023" },
+    { "label": "Crackling-infused gift pack 14€", "code": "BACON2024" }
+  ]
+}
