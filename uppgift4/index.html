@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Programmering - Drumpad</title>
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/script.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<audio id="audio-player"></audio>
+
+	<div class="drumpad-box">
+		<p class="info">Press <strong>Tab</strong> to switch pads. Play sounds by clicking the buttons or using the keyboard.</p>
+
+	<div class="container">
+		<div id="tab-pad1" class="pad-change active" onclick="changePad('pad1')">Pad 1</div>
+		<div id="tab-pad2" class="pad-change" onclick="changePad('pad2')">Pad 2</div>
+	</div>
+	
+	<div class="container">
+		<div id="pad1" class="pads active"></div>
+		<div id="pad2" class="pads"></div>
+		</div>
+	</div>
+</body>
+</html>

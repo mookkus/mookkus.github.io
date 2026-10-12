@@ -1,0 +1,31 @@
+{
+    "pad1": [
+        { "id": 1, "name": "Synth stab", "file": "audio/aaa.mp3" },
+        { "id": 2, "name": "Synth stab 2", "file": "audio/bbb.mp3" },
+        { "id": 3, "name": "Kick", "file": "audio/ccc.mp3" },
+        { "id": 4, "name": "Kick 2", "file": "audio/ddd.mp3" },
+        { "id": 5, "name": "Reverb Snare", "file": "audio/eee.mp3" },
+        { "id": 6, "name": "Clap", "file": "audio/fff.mp3" },
+        { "id": 7, "name": "Glitch", "file": "audio/ggg.mp3" },
+        { "id": 8, "name": "Kick & Stab", "file": "audio/hhh.mp3" },
+        { "id": 9, "name": "Bass Stab", "file": "audio/mmm.mp3" },
+        { "id": 10, "name": "Synth Stab 3", "file": "audio/jjj.mp3" },
+        { "id": 11, "name": "Key Stab", "file": "audio/kkk.mp3" },
+        { "id": 12, "name": "Space Stab", "file": "audio/lll.mp3" }
+    ],
+    "pad2": [
+        { "id": 14, "name": "Chord Stab", "file": "audio/sound13.mp3" },
+        { "id": 15, "name": "Bassy Saw", "file": "audio/sound14.mp3" },
+        { "id": 16, "name": "Perc", "file": "audio/sound15.mp3" },
+        { "id": 17, "name": "Clap 2", "file": "audio/sound16.mp3" },
+        { "id": 18, "name": "Clap 3", "file": "audio/sound17.mp3" },
+        { "id": 19, "name": "Snare", "file": "audio/sound18.mp3" },
+        { "id": 20, "name": "Short Snare", "file": "audio/sound19.mp3" },
+        { "id": 21, "name": "Weird Stab", "file": "audio/sound20.mp3" },
+        { "id": 22, "name": "Bam", "file": "audio/sound21.mp3" },
+        { "id": 23, "name": "Uhh", "file": "audio/sound22.mp3" },
+        { "id": 24, "name": "Damn", "file": "audio/sound23.mp3" },
+        { "id": 25, "name": "This", "file": "audio/sound24.mp3" }
+
+    ]
+}
