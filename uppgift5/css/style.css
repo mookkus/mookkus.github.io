@@ -1,0 +1,75 @@
+#game-in-progress {
+    display: none;
+}
+
+#game-feedback {
+    display: none;
+}
+
+#confetti-canvas {
+	position: absolute;
+	top: 0;
+}
+
+.container {
+   display: grid;
+}
+
+#game-in-progress {
+    position:relative;
+}
+
+#mute-btn {
+    font-size: 36px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+#mute-btn:hover {
+    cursor: pointer;
+}
+
+#user-answer-btn  {
+    position: absolute;
+    left: 33%;
+    margin-top: 20px;
+}
+
+.form-check {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#question-field {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#question-number {
+    font-size: 36px;
+    font-weight: bolder;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#name-position {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#points-position {
+    position: absolute;
+    top: 75px;
+    left: 0;
+}

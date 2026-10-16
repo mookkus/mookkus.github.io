@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Slideshow</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.css">
+    <script defer src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.4.0/tsparticles.confetti.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+  <audio id="feedback-player"></audio>
+
+    <div class="container" id="confetti-frame">
+      <div class="">
+        <!--Startskärm, göms när man trycker på starta spelet-->
+        <div class="" id="game-start">
+          <h2>Inlämningsuppgift 5 - Quiz</h2>
+          <p>Skriv ditt namn nedan och tryck på ”Starta spelet” för att komma igång.</p>
+          <label for="name-input">Användarnamn:</label>
+          <input type="text" name="player-name" id="name-input" /><br />
+          <img src="/img/background.jpg">
+          <button id="start-game-btn" class="btn-link" onclick="startGame()">Starta spelet</button>
+        </div>
+        <!--Startskärm END-->
+      </div>
+      <div class="">
+        <!--Spelet pågår, visas efter att man startat spelet och göms när man svarat på alla frågor-->
+        <div class="" id="game-in-progress">
+          <div class="">
+
+          </div>
+          <p id="question-number">Fråga + nummer</p>
+          <p id="question-field">Frågan visas här.</p>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="answers"
+              id="answer1"
+			  value="1"
+            />
+            <label id="answer-1-field" class="form-check-label" for="answer1">
+              Svar1
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="answers"
+              id="answer2"
+			  value="2"
+            />
+            <label id="answer-2-field" class="form-check-label" for="answer2">
+              Svar2
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="answers"
+              id="answer3"
+			  value="3"
+            />
+            <label id="answer-3-field" class="form-check-label" for="answer3">
+              Svar3
+            </label>
+          </div>
+          <a id="mute-btn" onclick="toggleMute()">🔊</a>
+          <button id="user-answer-btn" class="btn-link" onclick="nextQuestion()">Nästa fråga</button>
+            <div class="col" id="name-position">Namn: <span id="player-name"></span></div>
+            <div class="col" id="points-position">Poäng: <span id="player-points"></span></div>
+          
+        </div>
+      </div>
+      <!--Spelet pågår END-->
+      <div class="">
+        <!--Feedback, visas efter att man svarat på alla frågor, efter detta kan man starta om spelet-->
+        <div class="" id="game-feedback">
+          <h2 id="gamePointFeedback"></h2>
+          <p id="playerNameFeedback"> har fått <span id="total-player-points"></span> Poäng </p>
+          <button id="restart-game-btn" class="btn-link" value="reset" onclick="resetQuiz()">Starta om spelet</button>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn-link">
+            Skaffa lite allmänbildning
+          </a>
+        </div>
+        <!--Feedback END-->
+      </div>
+    </div>
+  </body>
+</html>
